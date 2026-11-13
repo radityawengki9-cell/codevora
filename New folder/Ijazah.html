@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital CV - Raditya wengki maulana</title>
+    <!-- Menghubungkan Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Menghubungkan Ikon FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Menghubungkan File CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigasi Utama -->
+    <header>
+        <nav class="navbar">
+            <a href="#hero" class="logo">Raditya<span>.cihuy</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#education">Pendidikan</a></li>
+                <li><a href="#experience">Pengalaman</a></li>
+                <li><a href="#skills">Skill</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Ganti Tema"><i class="fa-solid fa-moon"></i></button>
+                <button class="hamburger" id="hamburger" aria-label="Buka Menu"><i class="fa-solid fa-bars"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- BAGIAN 1: Hero / Perkenalan -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="badge-greeting">👋 Halo, aku RADITYA WENGKI MAULANA</span>
+                    <h1>Calon <span class="highlight">Software Engineer</span> & Web Developer</h1>
+                    <p>Mahasiswa yang antusias membangun pengalaman digital yang interaktif, elegan, dan bermanfaat.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Lihat Portofolio</a>
+                        <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="img-wrapper">
+                        <!-- Ganti src dengan 'assets/foto.jpg' jika memakai foto lokal -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRj8WMkYM_etGKsmWbjLYS8OUvYPm1RS0_p5UJicMAHg&s=10" alt="Foto Profil">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BAGIAN 2: Tentang Saya -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">Tentang Saya</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <h3>Latar Belakang</h3>
+                        <p>Mahasiswa Teknik Komputer yang fokus pada pengembangan front-end web dan desain antarmuka modern.</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="fa-solid fa-bullseye"></i>
+                        <h3>Motivasi</h3>
+                        <p>Terus belajar teknologi terbaru dan menciptakan website yang responsif serta nyaman digunakan siapa saja.</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="fa-solid fa-star"></i>
+                        <h3>Keunikan</h3>
+                        <p>membuat web dengan gaya yang gaul.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BAGIAN 3: Pendidikan -->
+        <section id="education" class="education-section">
+            <div class="container">
+                <h2 class="section-title">Pendidikan</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="year">2025 - Sekarang</span>
+                            <h3>Universitas Andalas</h3>
+                            <p class="subtitle">S1 Teknik Komputer</p>
+                            <p>Mempelajari dasar algoritma, struktur data, dan pengembangan web.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="year">2022 - 2025</span>
+                            <h3>SMA Negeri 2 Lubuk basung</h3>
+                            <p class="subtitle">Jurusan Kurikulum merdeka</p>
+                            <p>Aktif mengikuti ekstrakurikuler pemrograman dan klub Inggris.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BAGIAN 4: Pengalaman & Organisasi -->
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <h2 class="section-title">Pengalaman & Organisasi</h2>
+                <div class="experience-grid">
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <h3>Devisi Game Sound</h3>
+                            <span class="badge">2025 - Sekarang</span>
+                        </div>
+                        <p class="company">Game Development</p>
+                        <p>mengelola dan pengembangan game dilingkungan kampus untuk menarik minat bakat Mahasiswa dibidang hiburan game.</p>
+                    </div>
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <h3>Peserta Workshop Web</h3>
+                            <span class="badge">2026</span>
+                        </div>
+                        <p class="company">Codevora Web Development</p>
+                        <p>Membangun proyek Digital CV interaktif dari nol menggunakan HTML, CSS, dan JavaScript murni.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BAGIAN 5: Skill -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title">Skill & Keahlian</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Skill Teknis</h3>
+                        <div class="skill-bar">
+                            <div class="skill-info"><span>>>Pemahaman singkat tengtang web sevelopment </span>50%<span></span></div>
+                            <div class="progress-line"><div class="progress" style="width: 50%;"></div></div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info"><span>>>basic coding</span><span>30%</span></div>
+                            <div class="progress-line"><div class="progress" style="width: 30%;"></div></div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info"><span>>>analitical </span><span>60%</span></div>
+                            <div class="progress-line"><div class="progress" style="width: 60%;"></div></div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Skill Non-Teknis</h3>
+                        <div class="skill-badges">
+                            <span class="badge-skill">Kerjasama Tim</span>
+                            <span class="badge-skill">Komunikasi</span>
+                            <span class="badge-skill">Problem Solving</span>
+                            <span class="badge-skill">Manajemen Waktu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BAGIAN 6: Proyek / Portofolio -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">Proyek Pilihan</h2>
+                <!-- Tombol Filter Kategori -->
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">Semua</button>
+                    <button class="filter-btn" data-filter="web">Web App</button>
+                    <button class="filter-btn" data-filter="design">Desain</button>
+                </div>
+                <div class="project-grid">
+                    <div class="project-card" data-category="web">
+                        <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80" alt="Proyek 1">
+                        <div class="project-info">
+                            <h3>Aplikasi Catatan Harian</h3>
+                            <p>Aplikasi web sederhana untuk mencatat tugas harian dengan penyimpanan lokal browser.</p>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="web">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Proyek 2">
+                        <div class="project-info">
+                            <h3>Kalkulator Budget</h3>
+                            <p>Alat bantu hitung pemasukan dan pengeluaran bulanan berbasis JavaScript.</p>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="design">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Proyek 3">
+                        <div class="project-info">
+                            <h3>Landing Page Kafe</h3>
+                            <p>Desain halaman web responsif untuk promosi menu kopi lokal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BAGIAN 7: Kontak -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Kontak Saya</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Mari Terhubung</h3>
+                        <p>Silakan kirim pesan atau kunjungi akun media sosial saya di bawah ini:</p>
+                        <ul class="contact-list">
+                            <li><i class="fa-solid fa-envelope"></i> radityawengki9@gmail.com</li>
+                            <li><i class="fa-solid fa-location-dot"></i> Indonesia</li>
+                        </ul>
+                        <div class="social-links">
+                            <a href="https://github.com/radityawengki9-cell" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/raditya-wengki-ab3056378?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/radit.ya_wk?exln=MXZrMW80eWNnczdwcQ==" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <form id="contact-form" class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="name">Nama</label>
+                            <input type="text" id="name" placeholder="Nama lengkapmu...">
+                            <small class="error-msg" id="name-error"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="email@contoh.com">
+                            <small class="error-msg" id="email-error"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan</label>
+                            <textarea id="message" rows="4" placeholder="Tulis pesanmu..."></textarea>
+                            <small class="error-msg" id="message-error"></small>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Kirim Pesan</button>
+                        <div id="form-success" class="success-msg" style="display:none;">Pesan berhasil dikirim!</div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 [Nama Kamu]. Dibuat untuk Tugas Akhir Workshop Codevora.</p>
+    </footer>
+
+    <!-- Menghubungkan File JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
